@@ -38,10 +38,9 @@ The backend of the Cloud Book Writer Platform handles user authentication, role 
 ```
 5. **Configure the environment variables:**:
 
-# Create a .env file in the root of the backend directory.
-# Add the following variables:
+### Create a .env file in the root of the backend directory.
+##### Add the following variables:
 ```sh
-Copy code
 DB_URI=mongodb://yourMongoDBUri
 JWT_SECRET=yourJwtSecret
 PORT=5000
