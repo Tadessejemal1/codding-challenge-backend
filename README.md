@@ -23,7 +23,29 @@ The backend of the Cloud Book Writer Platform handles user authentication, role 
 1. **Clone the repository (if not already done for the frontend setup)**:
    ```bash
    git clone https://github.com/your-repository/cloud-book-writer.git
+   
+2. **Navigate to the backend directory:**:
 
+3. **Install dependencies**:
+
+```sh
+ npm install
+```
+4. **Run the server**:
+
+```sh
+ node server.js
+```
+5. **Configure the environment variables:**:
+
+# Create a .env file in the root of the backend directory.
+# Add the following variables:
+```sh
+Copy code
+DB_URI=mongodb://yourMongoDBUri
+JWT_SECRET=yourJwtSecret
+PORT=5000
+```
 ## API Endpoints
 
 ### Auth Routes:
