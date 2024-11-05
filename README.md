@@ -22,7 +22,7 @@ The backend of the Cloud Book Writer Platform handles user authentication, role 
 
 1. **Clone the repository (if not already done for the frontend setup)**:
    ```bash
-   git clone https://github.com/your-repository/cloud-book-writer.git
+   git clone https://github.com/cloud-book-writer.git
    
 2. **Navigate to the backend directory:**:
 
